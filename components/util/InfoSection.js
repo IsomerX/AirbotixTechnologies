@@ -6,11 +6,11 @@ const InfoSection = ({ title, description, image, alt, css="" }) => {
         <div className={`w-full flex mt-20 items-center ${css}`}>
             <div className="flex flex-col gap-6">
                 <div>
-                    <h2 className="font-heading font-bold text-5xl">{title}</h2>
-                    <div className="h-[4px] w-1/2 bg-zinc-500 mt-2"></div>
+                    <h2 className="font-heading font-bold text-5xl text-tert underline decoration-solid underline-offset-4 uppercase">{title}</h2>
+                    {/* <div className="h-[3px] w-1/2 bg-back1 mt-2"></div> */}
                 </div>
 
-                <h3 className="font-sub text-lg">{description}</h3>
+                <h3 className="font-heading font-medium text-lg text-back1">{description}</h3>
             </div>
             <img
                 src={image}

@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Banner from "../components/Banner";
 import Content from "../components/Content";
+import Footer from "../components/Footer";
 
 export default function Home() {
     return (
-        <div className="h-[2000px]">
+        <div>
             <Head>
                 <title>Airbotix</title>
                 <meta
@@ -16,7 +17,7 @@ export default function Home() {
 
             <Banner />
             <Content />
-            {/* <Footer /> */}
+            <Footer />
 
         </div>
     );

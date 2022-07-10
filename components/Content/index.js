@@ -18,7 +18,7 @@ const Content = () => {
             </LayoutWidth>
             <div className="bg-fixed w-screen h-[400px] bg-home-swarm bg-no-repeat bg-cover mt-20 ">
 
-                <div className="w-full h-full grid place-items-center bg-black bg-opacity-60 text-white font-heading font-bold text-8xl">
+                <div className="w-full h-full grid place-items-center bg-back2 bg-opacity-60 text-white font-heading font-bold text-8xl">
                     We Build to Perform
                 </div>
             </div>

@@ -31,8 +31,8 @@ const NavBar = ({ active }) => {
     return (
         <LayoutWidth
             css={`
-                ${scrollH > 200 &&
-                "bg-black"} text-white transition-all fixed top-0
+                ${scrollH >= 200 &&
+                "bg-back2"} text-white transition-all fixed top-0
             `}
         >
             <div className="w-full flex justify-between items-center py-4">
@@ -41,7 +41,7 @@ const NavBar = ({ active }) => {
                     {links.map((item) => {
                         return (
                             <Link href={item.link} key={item.id}>
-                                <div className={`hover:border-zinc-500 border-b-2 text-lg font-heading font-medium cursor-pointer transition-all ${item.isActive && "border-zinc-500"}`}>
+                                <div className={`hover:border-primary border-b-2 text-lg font-heading font-medium cursor-pointer transition-all ${item.isActive && "border-tert"}`}>
                                     {item.title}
                                 </div>
                             </Link>
