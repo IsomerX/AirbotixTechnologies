@@ -1,20 +1,60 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     overflow-x: hidden;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@tailwind base; 
-@tailwind components; 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
 .social {
-    filter: invert(100%) sepia(49%) saturate(1621%) hue-rotate(324deg) brightness(93%) contrast(81%);
+    filter: invert(100%) sepia(49%) saturate(1621%) hue-rotate(324deg)
+        brightness(93%) contrast(81%);
 }
 
 .social:hover {
-    filter: invert(65%) sepia(28%) saturate(807%) hue-rotate(7deg) brightness(92%) contrast(89%);
+    filter: invert(65%) sepia(28%) saturate(807%) hue-rotate(7deg)
+        brightness(92%) contrast(89%);
+}
+
+.tech-grid {
+    width: 100%;
+    gap: 1.5em;
+    display: grid;
+    grid-template-areas: "swarming gps" "auto-nav position-system";
+}
+
+.tech-grid > div > img {
+    width: 100%;
+    object-fit: cover;
+    @apply h-[300px] shadow-lg rounded-lg
+}
+
+.tech-grid > div > div > h2 {
+    @apply text-tert font-heading font-medium text-3xl mt-5
+}
+
+.tech-grid > div > div > h4 {
+    @apply text-extra font-heading font-medium text-lg
+}
+
+.swarming {
+    grid-area: swarming;
+}
+
+.gps {
+    grid-area: gps;
+}
+
+.auto-nav {
+    grid-area: auto-nav;
+}
+
+.position-system {
+    grid-area: position-system;
 }

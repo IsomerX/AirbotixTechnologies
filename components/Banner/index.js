@@ -7,7 +7,7 @@ import LayoutWidth from "../util/LayoutWidth";
 const Banner = () => {
     return (
         <div className=" bg-black relative w-screen pt-32 pb-28">
-            <NavBar active={"Home"}/>
+            <NavBar active={"Home"} scrollOffset={200} />
             <div className=" w-screen bg-black">
                 <LayoutWidth subCss="flex justify-between gap-20">
                     <div className="flex justify-center  flex-col gap-5">
@@ -21,7 +21,7 @@ const Banner = () => {
                             rescue, disaster response and defence use cases.
                         </h2>
                         <button className="font-heading text-xl py-4 px-8 bg-tert rounded-lg w-fit font-bold mt-4 border-2 hover:text-tert hover:bg-black transition-all">
-                          View Our Projects
+                            View Our Projects
                         </button>
                     </div>
                     <img src="/assets/banner.jpg" alt="globe" />
