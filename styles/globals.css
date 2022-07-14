@@ -59,14 +59,15 @@ html {
     grid-area: position-system;
 }
 
-.application-box:hover > div {
+.application-box:hover > div > div {
     @apply h-full;
 }
 
 .application-box > * {
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
 }
 
-.application-box:hover > div > h3 {
+.application-box:hover > div > div > h3 {
     @apply block;
 }

@@ -14,18 +14,20 @@ const ApplicationCard = ({ heading, description, image }) => {
     };
 
     return (
-        <div
-            style={BoxStyle}
-            className="h-[400px] rounded-xl flex justify-end flex-col application-box shadow-lg"
-        >
-            <div style={DescStyle} className="p-4 rounded-b-xl">
-                <h2 className="font-heading font-semibold text-2xl text-white">
-                    {heading}
-                </h2>
-                <h3 className="font-heading font-medium text-lg text-[#d9d9d9] hidden">
-                    {description}
-                </h3>
+        <div className="application-box">
+            <div
+                style={BoxStyle}
+                className="h-[400px] rounded-xl flex justify-end flex-col shadow-lg"
+            >
+                <div style={DescStyle} className="p-4 rounded-b-xl">
+                    <h3 className="font-heading font-medium text-lg text-[#d9d9d9] hidden">
+                        {description}
+                    </h3>
+                </div>
             </div>
+            <h2 className="font-heading font-semibold text-2xl mt-5 text-center text-back1">
+                {heading}
+            </h2>
         </div>
     );
 };

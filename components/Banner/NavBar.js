@@ -52,7 +52,7 @@ const NavBar = ({ active, scrollOffset = 0 }) => {
         <LayoutWidth
             css={`
                 ${scrollH >= scrollOffset &&
-                "bg-back2"} text-white transition-all fixed top-0
+                "bg-back2"} text-white transition-all fixed top-0 z-10
             `}
         >
             <div className="w-full flex justify-between items-center py-4">
