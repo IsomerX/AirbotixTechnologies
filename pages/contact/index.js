@@ -16,7 +16,7 @@ const Contact = () => {
                     Love to hear from you, <br /> Get in touch👋
                 </h2>
                 <form>
-                    <div className="font-heading grid grid-cols-2 gap-6 mt-5">
+                    <div className="font-heading grid grid-cols-2 gap-6 mt-8">
                         <div className="flex flex-col text-lg gap-2">
                             <label className="font-medium">Your name</label>
                             <input
@@ -30,6 +30,14 @@ const Contact = () => {
                             <input
                                 type="email"
                                 placeholder="Email"
+                                className="bg-[#f5f5f5] p-3 rounded-md text-[#292929]"
+                            />
+                        </div>
+                        <div className="flex flex-col text-lg gap-2">
+                            <label className="font-medium">Phone no.</label>
+                            <input
+                                type="text"
+                                placeholder="Phone no."
                                 className="bg-[#f5f5f5] p-3 rounded-md text-[#292929]"
                             />
                         </div>
@@ -51,7 +59,7 @@ const Contact = () => {
                 </form>
             </LayoutWidth>
 
-            <Footer css="absolute bottom-0 w-full" />
+            <Footer css="w-full" />
         </>
     );
 };

@@ -63,7 +63,7 @@ const Team = () => {
                 <h2 className="font-heading font-semibold text-5xl text-tert uppercase mt-32 text-center">
                     Our Team
                 </h2>
-                <h3 className="mt-10 font-heading text-xl font-medium leading-normal text-center">
+                <h3 className="mt-10 font-heading text-xl font-medium leading-normal text-center text-[#000000a1]">
                     We are a team of dedicated and passionate people who are
                     dedicated to providing the best service to our customers.
                     lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

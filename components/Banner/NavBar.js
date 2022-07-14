@@ -57,7 +57,7 @@ const NavBar = ({ active, scrollOffset = 0 }) => {
         >
             <div className="w-full flex justify-between items-center py-4">
                 <Link href={"/"}>
-                    <div className="font-heading text-5xl">Logo</div>
+                    <div className="font-heading text-5xl cursor-pointer">Logo</div>
                 </Link>
                 <div className="md:flex gap-8 mr-8 hidden ">
                     {links.map((item) => {
