@@ -3,49 +3,52 @@ import NavBar from "../../components/Banner/NavBar";
 import Footer from "../../components/Footer";
 import ApplicationCard from "../../components/util/ApplicationCard";
 import LayoutWidth from "../../components/util/LayoutWidth";
+import ProjectCard from "../../components/util/ProjectCard";
 
 const Index = () => {
     const data = [
         {
-            heading: "Disaster Management",
-            description:
-                "Our drone technology provides precise information of the geographical areas where Search and rescue operations are conducted.",
+            heading: "01",
+            subheading: "Disaster Management",
+            info: "Our drone technology provides precise information of the geographical areas where Search and rescue operations are conducted.",
             image: "/assets/airplane.jpg",
+            right: false
         },
         {
-            heading: "Geographic mapping of inaccessible terrain",
-            description:
-                "With the help of drones inaccessible terrains and locations like mountains, deserts and sea can be easily reached and in depth research can be conducted.",
+            heading: "02",
+            subheading: "Geographic mapping of inaccessible terrain",
+            info: "With the help of drones inaccessible terrains and locations like mountains, deserts and sea can be easily reached and in depth research can be conducted.",
             image: "/assets/airplane.jpg",
+            right: true
         },
         {
-            heading: "Defense and security",
-            description:
-                "Our swarming technology can help Surveillance of large areas in less time using swarm of drones.",
+            heading: "03",
+            subheading: "Defense and security",
+            info: "Our swarming technology can help Surveillance of large areas in less time using swarm of drones.",
             image: "/assets/airplane.jpg",
+            right: false
         },
         {
-            heading: "Entertainment",
-            description:
-                "Our Nano drones can be used to conduct drone light shows.",
+            heading: "04",
+            subheading: "Entertainment",
+            info: "Our Nano drones can be used to conduct drone light shows.",
             image: "/assets/airplane.jpg",
+            right: true
         },
     ];
 
     return (
         <div className="mt-32">
-            <NavBar active="Applications"/>
+            <NavBar active="Applications" />
             <LayoutWidth>
                 <h2 className="font-heading font-semibold text-5xl text-tert uppercase mt-32 text-center">
                     Applications
                 </h2>
-                <div className="grid grid-cols-4 mt-10 gap-8">
-                    {data.map((item, index) => {
-                        return <ApplicationCard key={index} {...item} />;
-                    })}
-                </div>
+                {data.map((item, index) => {
+                    return <ProjectCard key={index} {...item} imageCss="h-[350px] object-cover"/>;
+                })}
             </LayoutWidth>
-            <Footer css="absolute bottom-0 w-full" />
+            <Footer />
         </div>
     );
 };

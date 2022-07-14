@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-const ProjectCard = ({ heading, subheading, info, image, right = false }) => {
+const ProjectCard = ({ heading, subheading, info, image, right = false, imageCss = "" }) => {
     return (
         <div
             className={`flex items-center ${right && "flex-row-reverse"} py-24`}
@@ -15,7 +15,7 @@ const ProjectCard = ({ heading, subheading, info, image, right = false }) => {
                 <img
                     src={image}
                     alt=""
-                    className="w-full shadow-lg rounded-xl"
+                    className={`w-full shadow-lg rounded-xl ${imageCss}`}
                 />
             </div>
             <div className={`w-1/2 ${right ? "pr-10" : "pl-10"}`}>
