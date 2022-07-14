@@ -82,7 +82,7 @@ const Team = () => {
                     ))}
                 </div>
             </LayoutWidth>
-            {/* <Footer css="absolute bottom-0 w-full" /> */}
+            <Footer />
         </>
     );
 };
