@@ -32,15 +32,15 @@ html {
 .tech-grid > div > img {
     width: 100%;
     object-fit: cover;
-    @apply h-[300px] shadow-lg rounded-lg
+    @apply h-[300px] shadow-lg rounded-lg;
 }
 
 .tech-grid > div > div > h2 {
-    @apply text-tert font-heading font-medium text-3xl mt-5
+    @apply text-tert font-heading font-medium text-3xl mt-5;
 }
 
 .tech-grid > div > div > h4 {
-    @apply text-extra font-heading font-medium text-lg
+    @apply text-extra font-heading font-medium text-lg;
 }
 
 .swarming {
@@ -57,4 +57,16 @@ html {
 
 .position-system {
     grid-area: position-system;
+}
+
+.application-box:hover > div {
+    @apply h-full;
+}
+
+.application-box > * {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.application-box:hover > div > h3 {
+    @apply block;
 }

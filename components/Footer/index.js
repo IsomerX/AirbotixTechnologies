@@ -2,9 +2,11 @@
 import React from "react";
 import LayoutWidth from "../util/LayoutWidth";
 
-const Footer = () => {
+const Footer = ({ css = "" }) => {
     return (
-        <div className="bg-back2 text-primary font-heading py-10 mt-20">
+        <div
+            className={`bg-back2 text-primary font-heading py-10 mt-20 ${css}`}
+        >
             <LayoutWidth subCss="flex justify-between items-center">
                 <div className="text-3xl text-primary">Logo</div>
                 <div className="flex gap-3">

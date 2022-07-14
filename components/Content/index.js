@@ -59,7 +59,7 @@ const Content = () => {
                         </div>
                     </div>
                     <div className="position-system">
-                        <img src="/assets/precision`.jpg" alt="drone-swarm" />
+                        <img src="/assets/airplane.jpg" alt="drone-swarm" />
                         <div>
                             <h2>Precision Positioning System </h2>
                             <h4>
