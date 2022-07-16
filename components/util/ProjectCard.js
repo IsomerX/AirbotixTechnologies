@@ -4,9 +4,9 @@ import React from "react";
 const ProjectCard = ({ heading, subheading, info, image, right = false, imageCss = "" }) => {
     return (
         <div
-            className={`flex items-center ${right && "flex-row-reverse"} py-24`}
+            className={`flex flex-col items-center ${right ? "sm:flex-row-reverse" : "sm:flex-row"} py-12 sm:py-24`}
         >
-            <div className="w-1/2">
+            <div className="w-full sm:w-1/2">
                 <div className="">
                     <h2 className="font-medium text-primary font-heading text-9xl ">
                         {heading}
@@ -18,7 +18,7 @@ const ProjectCard = ({ heading, subheading, info, image, right = false, imageCss
                     className={`w-full shadow-lg rounded-xl ${imageCss}`}
                 />
             </div>
-            <div className={`w-1/2 ${right ? "pr-10" : "pl-10"}`}>
+            <div className={`w-full sm:w-1/2 text-center sm:text-left pt-10 sm:pt-0 ${right ? "sm:pr-10" : "sm:pl-10"}`}>
                 <div className="font-heading capitalize text-5xl font-semibold text-extra">
                     {subheading}
                 </div>

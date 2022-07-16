@@ -17,14 +17,14 @@ const Content = () => {
                     css="gap-10"
                 />
             </LayoutWidth>
-            <div className="bg-fixed w-screen h-[400px] bg-home-swarm bg-no-repeat bg-cover mt-20 ">
-                <div className="w-full h-full grid place-items-center bg-back2 bg-opacity-60 text-white font-heading font-bold text-8xl">
+            <div className="bg-fixed w-screen h-[200px] sm:h-[400px] bg-home-swarm bg-no-repeat bg-cover mt-20 ">
+                <div className="w-full h-full grid place-items-center bg-back2 bg-opacity-60 text-white font-heading font-bold xl:text-8xl md:text-7xl text-4xl sm:text-5xl text-center">
                     We Build to Perform
                 </div>
             </div>
 
             <LayoutWidth>
-                <h2 className="font-heading font-semibold text-5xl text-tert uppercase mt-20">
+                <h2 className="font-heading font-semibold text-4xl sm:text-5xl text-tert uppercase mt-20">
                     Technology
                 </h2>
                 <div className="tech-grid mt-10">

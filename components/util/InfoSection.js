@@ -3,10 +3,10 @@ import React from "react";
 
 const InfoSection = ({ title, description, image, alt, css="" }) => {
     return (
-        <div className={`w-full flex mt-20 items-center ${css}`}>
+        <div className={`w-full flex flex-col-reverse sm:flex-row mt-20 items-center ${css}`}>
             <div className="flex flex-col gap-6">
                 <div>
-                    <h2 className="font-heading font-semibold text-5xl text-tert uppercase">{title}</h2>
+                    <h2 className="font-heading font-semibold text-4xl sm:text-5xl text-tert uppercase">{title}</h2>
                     {/* <div className="h-[3px] w-1/2 bg-back1 mt-2"></div> */}
                 </div>
 
@@ -15,7 +15,7 @@ const InfoSection = ({ title, description, image, alt, css="" }) => {
             <img
                 src={image}
                 alt={alt}
-                className="w-2/5 rounded-3xl shadow-lg"
+                className="w-full sm:w-2/5 rounded-3xl shadow-lg"
             />
         </div>
     );
