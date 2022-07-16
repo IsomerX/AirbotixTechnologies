@@ -41,7 +41,7 @@ const Index = () => {
         <div className="mt-32">
             <NavBar active="Applications" />
             <LayoutWidth>
-                <h2 className="font-heading font-semibold text-5xl text-tert uppercase mt-32 text-center">
+                <h2 className="font-heading font-semibold text-4xl sm:text-5xl text-tert uppercase mt-32 text-center">
                     Applications
                 </h2>
                 {data.map((item, index) => {

@@ -12,11 +12,11 @@ const Contact = () => {
                 <h2 className="font-heading font-semibold text-5xl text-tert uppercase mt-32 text-center">
                     Contact
                 </h2>
-                <h2 className="mt-10 font-heading font-bold text-5xl leading-normal">
+                <h2 className="mt-10 font-heading font-bold text-4xl sm:text-5xl leading-normal">
                     Love to hear from you, <br /> Get in touch👋
                 </h2>
                 <form>
-                    <div className="font-heading grid grid-cols-2 gap-6 mt-8">
+                    <div className="font-heading grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                         <div className="flex flex-col text-lg gap-2">
                             <label className="font-medium">Your name</label>
                             <input
@@ -41,7 +41,7 @@ const Contact = () => {
                                 className="bg-[#f5f5f5] p-3 rounded-md text-[#292929]"
                             />
                         </div>
-                        <div className="flex flex-col text-lg gap-2 col-span-2">
+                        <div className="flex flex-col text-lg gap-2 md:col-span-2">
                             <label className="font-medium">Your Message</label>
                             <textarea
                                 type="text"

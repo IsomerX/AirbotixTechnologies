@@ -24,7 +24,11 @@ module.exports = {
         backgroundImage: {
             "home-swarm": "url('/assets/home_swarm.jpg')",
         },
-        extend: {},
+        extend: {
+            screens: {
+                'navsm': '880px'
+            }
+        },
     },
     plugins: [],
 };
