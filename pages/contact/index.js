@@ -9,7 +9,7 @@ const Contact = () => {
             <NavBar active="Contact" />
 
             <LayoutWidth>
-                <h2 className="font-heading font-semibold text-5xl text-tert uppercase mt-32 text-center">
+                <h2 className="font-heading font-semibold text-4xl sm:text-5xl text-tert uppercase mt-32 text-center">
                     Contact
                 </h2>
                 <h2 className="mt-10 font-heading font-bold text-4xl sm:text-5xl leading-normal">

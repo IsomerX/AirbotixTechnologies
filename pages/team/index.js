@@ -60,7 +60,7 @@ const Team = () => {
                 <TeamModal member={member} close={handleCloseModal} />
             )}
             <LayoutWidth>
-                <h2 className="font-heading font-semibold text-5xl text-tert uppercase mt-32 text-center">
+                <h2 className="font-heading font-semibold text-4xl sm:text-5xl text-tert uppercase mt-32 text-center">
                     Our Team
                 </h2>
                 <h3 className="mt-10 font-heading text-xl font-medium leading-normal text-center text-[#000000a1]">
