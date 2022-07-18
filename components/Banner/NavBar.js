@@ -58,13 +58,13 @@ const NavBar = ({ active, scrollOffset = 0 }) => {
                     "bg-back2"} text-white transition-all fixed top-0 z-10
                 `}
             >
-                <div className="w-full flex justify-between items-center py-4">
-                    <Link href={"/"}>
+                <div className="w-full flex justify-center items-center py-8">
+                    {/* <Link href={"/"}>
                         <div className="font-heading text-5xl cursor-pointer">
                             Logo
                         </div>
-                    </Link>
-                    <div className="navsm:flex gap-8 mr-8 hidden">
+                    </Link> */}
+                    <div className="navsm:flex gap-8 hidden">
                         {links.map((item) => {
                             return (
                                 <Link href={item.link} key={item.id}>
@@ -96,7 +96,7 @@ const NavBar = ({ active, scrollOffset = 0 }) => {
             <div
                 className={`fixed ${
                     showHamburger ? "right-0" : "left-full"
-                } w-[300px] h-screen top-20 z-50 py-5 bg-white transition-all navsm:hidden shadow-xl`}
+                } w-[300px] h-screen top-16 z-50 bg-white transition-all navsm:hidden shadow-xl`}
             >
                 <div>
                     {links.map((item) => {

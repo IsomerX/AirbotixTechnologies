@@ -29,24 +29,24 @@ const Team = () => {
         {
             name: "Col. Rajesh Gandhi (Retd.)",
             designation: "CEO & Executive Director",
-            more: "With a stellar career spanning over 30 years in the Indian Armed forces and L&T defence, Col. Gandhi is one of the highly experienced drone experts in the country. An M.Tech from IIT Delhi, his passion for UAVs is unmatched.",
+            more: "With a stellar career spanning over 30 years in the Indian Armed forces and L&T defence, he is one of the highly experienced drone experts in the country. An M.Tech from IIT Delhi, his passion for UAVs is unmatched.",
             image: "/assets/team/Rgandhi.jpg",
         },
         {
             name: "Abhishek Khambhata",
-            designation: "Designation",
+            designation: "Design Engineer - Mechanical",
             more: "A young mechanical engineer with immense knowledge and a knack for designing, Abhishek also loves to fly his UAVs.",
             image: "/assets/team/Akhambhata.jpg",
         },
         {
             name: "Mohit Kenia",
-            designation: "Designation",
+            designation: "Design Engineer - Software",
             more: "One of the most hands-on experienced persons in the field of UAVs, Mohit is our tinkering expert.",
             image: "/assets/team/Mkenia.jpg",
         },
         {
             name: "Vinay Tandra",
-            designation: "Designation",
+            designation: "Business Developer",
             more: "Vinay is currently in his final year of BBA. He is a young and optimistic person, with good leadership qualities who also happens to be a national level athlete.",
             image: "/assets/team/Vinaytandra.jpg",
         },
@@ -59,7 +59,7 @@ const Team = () => {
             {showModal && (
                 <TeamModal member={member} close={handleCloseModal} />
             )}
-            <LayoutWidth>
+            <LayoutWidth css="pb-10">
                 <h2 className="font-heading font-semibold text-4xl sm:text-5xl text-tert uppercase mt-32 text-center">
                     Our Team
                 </h2>

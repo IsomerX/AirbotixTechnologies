@@ -14,7 +14,7 @@ const Banner = () => {
                 <LayoutWidth subCss="flex justify-between gap-20">
                     <div className="flex justify-center  flex-col gap-5 text-center sm:text-left">
                         <h1 className="text-primary text-5xl sm:text-6xl font-heading font-bold">
-                            Airbotix Technologies
+                            Airbotix Technology
                         </h1>
                         <h2 className="text-[#d9d9d9] text-lg font-heading font-normal">
                             We aim to develop an end-to-end swarming solution,

@@ -8,13 +8,13 @@ const Contact = () => {
         <>
             <NavBar active="Contact" />
 
-            <LayoutWidth>
+            <LayoutWidth css="pb-10">
                 <h2 className="font-heading font-semibold text-4xl sm:text-5xl text-tert uppercase mt-32 text-center">
-                    Contact
+                    Contact Us
                 </h2>
-                <h2 className="mt-10 font-heading font-bold text-4xl sm:text-5xl leading-normal">
+                {/* <h2 className="mt-10 font-heading font-bold text-4xl sm:text-5xl leading-normal">
                     Love to hear from you, <br /> Get in touch👋
-                </h2>
+                </h2> */}
                 <form>
                     <div className="font-heading grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                         <div className="flex flex-col text-lg gap-2">
@@ -59,7 +59,7 @@ const Contact = () => {
                 </form>
             </LayoutWidth>
 
-            <Footer css="w-full" />
+            <Footer css="w-full sm:absolute sm:bottom-0" />
         </>
     );
 };

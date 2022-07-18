@@ -5,7 +5,7 @@ import LayoutWidth from "../util/LayoutWidth";
 const Footer = ({ css = "" }) => {
     return (
         <div
-            className={`bg-back2 text-primary font-heading py-10 mt-20 ${css}`}
+            className={`bg-back2 text-primary font-heading py-10 mt-20 ${css} hidden`}
         >
             <LayoutWidth subCss="flex justify-between items-center">
                 <div className="text-3xl text-primary">Logo</div>

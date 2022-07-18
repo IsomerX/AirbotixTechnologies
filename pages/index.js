@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
     return (
-        <div>
+        <div className="pb-10">
             <Head>
                 <title>Airbotix</title>
                 <meta
@@ -18,7 +18,6 @@ export default function Home() {
             <Banner />
             <Content />
             <Footer />
-
         </div>
     );
 }
