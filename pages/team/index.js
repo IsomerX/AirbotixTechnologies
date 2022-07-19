@@ -70,16 +70,15 @@ const Team = () => {
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
                 </h3> */}
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-x-4 mt-10 gap-y-10">
-                    <TeamCard {...data[0]} readmore={handleShowMore} />
-                    <TeamCard {...data[1]} readmore={handleShowMore} />
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 md:flex md:justify-center gap-x-4 mt-10 gap-y-10">
+                    <TeamCard {...data[0]} readmore={handleShowMore} css="md:w-1/3"/>
+                    <TeamCard {...data[1]} readmore={handleShowMore} css="md:w-1/3"/>
                 </div>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-x-4 mt-10 gap-y-10">
                     <TeamCard {...data[2]} readmore={handleShowMore} />
                     <TeamCard {...data[3]} readmore={handleShowMore} />
                     <TeamCard {...data[4]} readmore={handleShowMore} />
                 </div>
-                
             </LayoutWidth>
             <Footer />
         </>

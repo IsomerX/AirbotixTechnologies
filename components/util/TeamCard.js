@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-const TeamCard = ({ name, designation, image, readmore }) => {
+const TeamCard = ({ name, designation, image, readmore, css = "" }) => {
     return (
-        <div>
+        <div className={css}>
             <div className="flex flex-col items-center justify-center relative">
                 <img
                     src={image}
@@ -17,7 +17,10 @@ const TeamCard = ({ name, designation, image, readmore }) => {
                     <h3 className="font-heading font-medium text-lg mt-1 text-center text-back1">
                         {designation}
                     </h3>
-                    <div className="text-center font-heading mt-1 cursor-pointer text-tert" onClick={() => readmore(name)}>
+                    <div
+                        className="text-center font-heading mt-1 cursor-pointer text-tert"
+                        onClick={() => readmore(name)}
+                    >
                         Read More
                     </div>
                 </div>
