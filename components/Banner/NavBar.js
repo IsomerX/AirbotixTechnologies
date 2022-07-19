@@ -35,18 +35,18 @@ const NavBar = ({ active, scrollOffset = 0 }) => {
             link: "/applications",
             isActive: active === "Applications",
         },
-        { id: 4, title: "Team", link: "team", isActive: active === "Team" },
         {
-            id: 5,
-            title: "Contact",
-            link: "contact",
-            isActive: active === "Contact",
-        },
-        {
-            id: 6,
+            id: 4,
             title: "Products",
             link: "products",
             isActive: active === "Products",
+        },
+        { id: 5, title: "Team", link: "team", isActive: active === "Team" },
+        {
+            id: 6,
+            title: "Contact",
+            link: "contact",
+            isActive: active === "Contact",
         },
     ];
 

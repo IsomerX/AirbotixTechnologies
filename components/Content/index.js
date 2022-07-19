@@ -10,7 +10,7 @@ const Content = () => {
                 <InfoSection
                     title={"About Us"}
                     description={
-                        "Situated in Gurugram, Airbotix Technologies is an organisation developing indigenous cutting edge drone technology. We aim to develop an end-to-end swarming solution, including hardware and software, which can be used to bear across humanitarian efforts, search and rescue, disaster response and defence use cases."
+                        "Airbotix is an organisation involved in research, development and production of cutting edge indigenous drone technology. We aim to develop end to end Drone solutions in inspection, surveillance and entertainment."
                     }
                     image="/assets/airplane.jpg"
                     alt="airplane"
@@ -19,7 +19,7 @@ const Content = () => {
             </LayoutWidth>
             <div className="bg-fixed w-screen h-[200px] sm:h-[400px] bg-home-swarm bg-no-repeat bg-cover mt-20 ">
                 <div className="w-full h-full grid place-items-center bg-back2 bg-opacity-60 text-white font-heading font-bold xl:text-8xl md:text-7xl text-4xl sm:text-5xl text-center">
-                    We Build to Perform
+                    {/* We Build to Perform */}
                 </div>
             </div>
 
@@ -32,40 +32,24 @@ const Content = () => {
                         <img src="/assets/swarm.jpg" alt="drone-swarm" />
                         <div>
                             <h2>Swarming Tech</h2>
-                            <h4>
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry.
-                            </h4>
                         </div>
                     </div>
                     <div className="gps">
                         <img src="/assets/gps.jpg" alt="drone-swarm" />
                         <div>
                             <h2>GPS Denied Navigation </h2>
-                            <h4>
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry.
-                            </h4>
                         </div>
                     </div>
                     <div className="auto-nav">
                         <img src="/assets/navigation.png" alt="drone-swarm" />
                         <div>
                             <h2>Autonomous Navigation </h2>
-                            <h4>
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry.
-                            </h4>
                         </div>
                     </div>
                     <div className="position-system">
-                        <img src="/assets/airplane.jpg" alt="drone-swarm" />
+                        <img src="/assets/precise.jpg" alt="drone-swarm" />
                         <div>
                             <h2>Precision Positioning System </h2>
-                            <h4>
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry.
-                            </h4>
                         </div>
                     </div>
                 </div>

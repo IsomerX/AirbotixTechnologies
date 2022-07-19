@@ -13,9 +13,6 @@ const Projects = () => {
                 Projects
             </h2>
             <LayoutWidth>
-                <h2 className="mt-10 font-heading font-light text-4xl sm:text-5xl leading-normal text-back1">
-                    We are currently working on the following projects:
-                </h2>
                 <ProjectCard
                     heading={"01"}
                     subheading={"Nano Drones"}
@@ -24,8 +21,8 @@ const Projects = () => {
                 />
                 <ProjectCard
                     heading={"02"}
-                    subheading={"Hydrostatic Drones"}
-                    image="/assets/projects/hydro.jpg"
+                    subheading={"Airship Drones"}
+                    image="/assets/projects/airship.png"
                     imageCss="h-[350px] object-cover"
                     right={true}
                 />

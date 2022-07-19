@@ -11,7 +11,7 @@ const Index = () => {
             heading: "01",
             subheading: "Disaster Management",
             info: "Our drone technology provides precise information of the geographical areas where Search and rescue operations are conducted.",
-            image: "/assets/airplane.jpg",
+            image: "/assets/navigation.png",
             right: false
         },
         {
@@ -25,14 +25,14 @@ const Index = () => {
             heading: "03",
             subheading: "Defense and security",
             info: "Our swarming technology can help Surveillance of large areas in less time using swarm of drones.",
-            image: "/assets/airplane.jpg",
+            image: "/assets/defence_security.jpg",
             right: false
         },
         {
             heading: "04",
             subheading: "Entertainment",
-            info: "Our Nano drones can be used to conduct drone light shows.",
-            image: "/assets/airplane.jpg",
+            info: "Our Nano drones are used to conduct drone light shows.",
+            image: "/assets/deer.png",
             right: true
         },
     ];

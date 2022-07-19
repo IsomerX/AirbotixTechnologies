@@ -23,7 +23,7 @@ const Team = () => {
         {
             name: "Vinod Tandra",
             designation: "Executive Director",
-            more: "Vinod Tandra holds a Master’s degree in business administration and has initiated his career at a very young age as an industrialist and forayed into real estate soon after.",
+            more: "Vinod Tandra holds a Master’s degree in business administration and has initiated his career at a very young age as an industrialist and forayed into many industries soon after.",
             image: "/assets/team/Vtandra.jpg",
         },
         {
@@ -63,24 +63,23 @@ const Team = () => {
                 <h2 className="font-heading font-semibold text-4xl sm:text-5xl text-tert uppercase mt-32 text-center">
                     Our Team
                 </h2>
-                <h3 className="mt-10 font-heading text-xl font-medium leading-normal text-center text-[#000000a1]">
+                {/* <h3 className="mt-10 font-heading text-xl font-medium leading-normal text-center text-[#000000a1]">
                     We are a team of dedicated and passionate people who are
                     dedicated to providing the best service to our customers.
                     lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
-                </h3>
+                </h3> */}
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-x-4 mt-10 gap-y-10">
-                    {data.map((item) => (
-                        <TeamCard
-                            key={item.name}
-                            name={item.name}
-                            designation={item.designation}
-                            image={item.image}
-                            readmore={handleShowMore}
-                        />
-                    ))}
+                    <TeamCard {...data[0]} readmore={handleShowMore} />
+                    <TeamCard {...data[1]} readmore={handleShowMore} />
                 </div>
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-x-4 mt-10 gap-y-10">
+                    <TeamCard {...data[2]} readmore={handleShowMore} />
+                    <TeamCard {...data[3]} readmore={handleShowMore} />
+                    <TeamCard {...data[4]} readmore={handleShowMore} />
+                </div>
+                
             </LayoutWidth>
             <Footer />
         </>
