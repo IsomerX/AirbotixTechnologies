@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import ApplicationCard from "../../components/util/ApplicationCard";
 import LayoutWidth from "../../components/util/LayoutWidth";
 import ProjectCard from "../../components/util/ProjectCard";
+import Head from "next/head";
 
 const Index = () => {
     const data = [
@@ -39,6 +40,11 @@ const Index = () => {
 
     return (
         <div className="mt-32">
+            <Head>
+                <title>Airbotix - Application</title>
+                <meta name="description" content="Airbotix Technologies" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <NavBar active="Applications" />
             <LayoutWidth>
                 <h2 className="font-heading font-semibold text-4xl sm:text-5xl text-tert uppercase mt-32 text-center">

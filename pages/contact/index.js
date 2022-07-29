@@ -2,10 +2,16 @@ import React from "react";
 import NavBar from "../../components/Banner/NavBar";
 import Footer from "../../components/Footer";
 import LayoutWidth from "../../components/util/LayoutWidth";
+import Head from "next/head";
 
 const Contact = () => {
     return (
         <>
+            <Head>
+                <title>Airbotix - Contact</title>
+                <meta name="description" content="Airbotix Technologies" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <NavBar active="Contact" />
 
             <LayoutWidth css="pb-10">

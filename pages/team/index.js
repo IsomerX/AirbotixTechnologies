@@ -1,3 +1,4 @@
+import Head from "next/head";
 import React, { useState } from "react";
 import NavBar from "../../components/Banner/NavBar";
 import Footer from "../../components/Footer";
@@ -54,6 +55,11 @@ const Team = () => {
 
     return (
         <>
+            <Head>
+                <title>Airbotix - Team</title>
+                <meta name="description" content="Airbotix Technologies" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <NavBar active="Team" />
 
             {showModal && (
@@ -71,8 +77,16 @@ const Team = () => {
                     aliqua.
                 </h3> */}
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 md:flex md:justify-center gap-x-4 mt-10 gap-y-10">
-                    <TeamCard {...data[0]} readmore={handleShowMore} css="md:w-1/3"/>
-                    <TeamCard {...data[1]} readmore={handleShowMore} css="md:w-1/3"/>
+                    <TeamCard
+                        {...data[0]}
+                        readmore={handleShowMore}
+                        css="md:w-1/3"
+                    />
+                    <TeamCard
+                        {...data[1]}
+                        readmore={handleShowMore}
+                        css="md:w-1/3"
+                    />
                 </div>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-x-4 mt-10 gap-y-10">
                     <TeamCard {...data[2]} readmore={handleShowMore} />
