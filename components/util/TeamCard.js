@@ -8,7 +8,7 @@ const TeamCard = ({ name, designation, image, readmore, css = "" }) => {
                 <img
                     src={image}
                     alt={name}
-                    className="w-full rounded-xl shadow-lg h-[400px] lg:h-[400px] object-cover"
+                    className="w-full rounded-xl shadow-lg h-[400px] lg:h-[400px] object-cover object-top"
                 />
                 <div className="-mt-10 bg-white rounded-lg shadow-xl w-4/5 py-3">
                     <h2 className="font-heading font-semibold text-2xl text-center text-back1">

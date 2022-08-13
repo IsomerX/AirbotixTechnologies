@@ -5,11 +5,11 @@ import LayoutWidth from "../util/LayoutWidth";
 const Footer = ({ css = "" }) => {
     return (
         <div
-            className={`bg-back2 text-primary font-heading py-10 mt-20 ${css} hidden`}
+            className={`bg-back2 text-primary font-heading py-10 mt-20 ${css}`}
         >
-            <LayoutWidth subCss="flex justify-between items-center">
-                <div className="text-3xl text-primary">Logo</div>
-                <div className="flex gap-3">
+            <LayoutWidth subCss="flex justify-center items-center">
+                <div className="text-3xl text-primary">Airbotix Technology Pvt Ltd</div>
+                {/* <div className="flex gap-3">
                     <a href="" target="_blank">
                         <img
                             src="/assets/fb.svg"
@@ -31,7 +31,7 @@ const Footer = ({ css = "" }) => {
                             className="social transition-all h-10"
                         />
                     </a>
-                </div>
+                </div> */}
             </LayoutWidth>
         </div>
     );

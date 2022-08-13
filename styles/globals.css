@@ -26,7 +26,7 @@ html {
     width: 100%;
     gap: 1.5em;
     display: grid;
-    @apply sm:grid-cols-2
+    @apply sm:grid-cols-2;
 }
 
 .tech-grid > div > img {
@@ -43,7 +43,6 @@ html {
     @apply text-extra font-heading font-medium text-lg;
 }
 
-
 .application-box:hover > div > div {
     @apply h-full;
 }
@@ -55,4 +54,18 @@ html {
 
 .application-box:hover > div > div > h3 {
     @apply block;
+}
+
+.glass {
+    box-shadow: inset 16.17px -16.17px 16.17px rgba(165, 165, 165, 0.09),
+        inset -16.17px 16.17px 16.17px rgba(165, 165, 165, 0.09),
+        0 1px 3px 0 rgb(255 255 255 / 0.05), 0 1px 5px 0 rgb(0 0 0 / 0.05);
+    backdrop-filter: blur(9.17px);
+}
+
+.search-glass {
+    box-shadow: inset 43.83px -43.83px 43.83px rgba(165, 165, 165, 0.05),
+        inset -43.83px 43.83px 43.83px rgba(165, 165, 165, 0.05),
+        0 1px 3px 3px rgb(0 0 0 / 0.05);
+    backdrop-filter: blur(21.17px);
 }

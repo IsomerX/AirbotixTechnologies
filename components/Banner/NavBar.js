@@ -55,10 +55,10 @@ const NavBar = ({ active, scrollOffset = 0 }) => {
             <LayoutWidth
                 css={`
                     ${scrollH >= scrollOffset &&
-                    "bg-back2"} text-white transition-all fixed top-0 z-10
+                    "bg-[#090D1B87]"} text-white transition-all fixed top-0 z-10 search-glass
                 `}
             >
-                <div className="w-full flex justify-center items-center py-8">
+                <div className="w-full flex justify-center items-center py-4">
                     {/* <Link href={"/"}>
                         <div className="font-heading text-5xl cursor-pointer">
                             Logo
@@ -69,8 +69,10 @@ const NavBar = ({ active, scrollOffset = 0 }) => {
                             return (
                                 <Link href={item.link} key={item.id}>
                                     <div
-                                        className={`hover:border-primary border-b-2 text-lg font-heading font-medium cursor-pointer transition-all ${
-                                            item.isActive && "border-tert"
+                                        className={`hover:border-primary border-2 text-lg font-heading font-medium cursor-pointer transition-all py-2 px-4 rounded-lg ${
+                                            item.isActive
+                                                ? "border-tert glass"
+                                                : "border-[#00000000]"
                                         }`}
                                     >
                                         {item.title}
@@ -96,7 +98,7 @@ const NavBar = ({ active, scrollOffset = 0 }) => {
             <div
                 className={`fixed ${
                     showHamburger ? "right-0" : "left-full"
-                } w-[300px] h-screen top-16 z-50 bg-white transition-all navsm:hidden shadow-xl`}
+                } w-[300px] h-screen top-16 z-50 bg-[#fffffff1] transition-all navsm:hidden shadow-xl search-glass`}
             >
                 <div>
                     {links.map((item) => {

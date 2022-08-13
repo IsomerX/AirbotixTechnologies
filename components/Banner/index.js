@@ -14,7 +14,7 @@ const Banner = () => {
                 <LayoutWidth subCss="flex justify-between gap-20">
                     <div className="flex justify-center  flex-col gap-5 text-center sm:text-left">
                         <h1 className="text-primary text-5xl sm:text-6xl font-heading font-bold">
-                            Airbotix Technology
+                            Airbotix Technology Pvt Ltd
                         </h1>
                         <h2 className="text-[#d9d9d9] text-3xl font-heading font-normal">
                             Creating Future
