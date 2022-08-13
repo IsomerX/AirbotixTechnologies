@@ -58,7 +58,7 @@ const NavBar = ({ active, scrollOffset = 0 }) => {
                     "bg-[#090D1B87]"} text-white transition-all fixed top-0 z-10 search-glass
                 `}
             >
-                <div className="w-full flex justify-center items-center py-4">
+                <div className="w-full flex justify-center items-center py-8">
                     {/* <Link href={"/"}>
                         <div className="font-heading text-5xl cursor-pointer">
                             Logo
