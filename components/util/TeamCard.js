@@ -14,7 +14,7 @@ const TeamCard = ({ name, designation, image, readmore, css = "" }) => {
                     <h2 className="font-heading font-semibold text-2xl text-center text-back1">
                         {name}
                     </h2>
-                    <h3 className="font-heading font-medium text-lg mt-1 text-center text-back1">
+                    <h3 className="font-heading font-medium text-md mt-1 text-center text-back1">
                         {designation}
                     </h3>
                     <div

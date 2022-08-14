@@ -34,6 +34,12 @@ const Team = () => {
             image: "/assets/team/Rgandhi.jpg",
         },
         {
+            name: "Dr. Sohan Suvarna",
+            designation: "VP (Research & Development)",
+            more: "PhD in Aerospace engineering IIT Bombay and Monash University (Australia)",
+            image: "/assets/team/sohan.png"
+        },
+        {
             name: "A. Khambhata",
             designation: "Design Engineer - Mechanical",
             more: "A young mechanical engineer with immense knowledge and a knack for designing, Abhishek also loves to fly his UAVs.",
@@ -88,10 +94,11 @@ const Team = () => {
                         css="md:w-1/3"
                     />
                 </div>
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-x-4 mt-10 gap-y-10">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-4 mt-10 gap-y-10">
                     <TeamCard {...data[2]} readmore={handleShowMore} />
                     <TeamCard {...data[3]} readmore={handleShowMore} />
                     <TeamCard {...data[4]} readmore={handleShowMore} />
+                    <TeamCard {...data[5]} readmore={handleShowMore} />
                 </div>
             </LayoutWidth>
             <Footer />
