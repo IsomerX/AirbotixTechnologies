@@ -20,13 +20,13 @@ const Content = () => {
 
                         <h3 className="font-heading font-medium text-lg text-back1">
                             {
-                                "Airbotix is an organisation involved in research, development and production of cutting edge indigenous drone technology. We aim to develop end to end Drone solutions in inspection, surveillance and entertainment."
+                                "Airbotix is an organisation involved in research, development and production of cutting edge indigenous drone and underwater vehicle  technology. We aim to develop end to end Drone solutions in inspection, surveillance and entertainment."
                             }
                         </h3>
                     </div>
                     <div className="w-full h-[350px] sm:w-2/5 grid grid-cols-2 grid-rows-2 gap-2">
                         <img src="/assets/projects/airship.png" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
-                        <img src="/assets/projects/submarine.jpeg" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
+                        <img src="/assets/projects/submarine.jpg" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
                         <img src="/assets/matrix-drone2.jpg" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
                         <img src="/assets/deer.png" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
                     </div>
