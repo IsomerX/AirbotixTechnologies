@@ -24,9 +24,9 @@ const Content = () => {
                             }
                         </h3>
                     </div>
-                    <div className="w-full sm:w-2/5 grid grid-cols-2 gap-2">
+                    <div className="w-full h-[350px] sm:h-[400px] sm:w-2/5 grid grid-cols-2 grid-rows-2 gap-2">
                         <img src="/assets/projects/airship.png" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
-                        <img src="/assets/matrix-drone.png" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
+                        <img src="/assets/projects/nano.jpg" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
                         <img src="/assets/matrix-drone2.jpg" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
                         <img src="/assets/deer.png" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
                     </div>
