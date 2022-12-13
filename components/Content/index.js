@@ -27,7 +27,7 @@ const Content = () => {
                     <div className="w-full h-[350px] sm:w-2/5 grid grid-cols-2 grid-rows-2 gap-2">
                         <img src="/assets/projects/airship.png" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
                         <img src="/assets/projects/submarine.jpg" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
-                        <img src="/assets/matrix-drone2.jpg" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
+                        <img src="/assets/Nano_drone.png" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
                         <img src="/assets/deer.png" alt="airship" className="h-full w-full rounded-lg shadow-sm object-cover"/>
                     </div>
                 </div>
