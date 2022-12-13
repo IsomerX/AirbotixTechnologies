@@ -36,7 +36,7 @@ const Team = () => {
         {
             name: "Dr. Sohan Suvarna",
             designation: "VP (Research & Development)",
-            more: "PhD in Aerospace engineering IIT Bombay and Monash University (Australia)",
+            more: "PhD in Aerospace engineering from IIT Bombay and Monash University (Australia)",
             image: "/assets/team/sohan.png"
         },
         {
